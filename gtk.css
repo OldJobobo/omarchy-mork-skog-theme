@@ -4,25 +4,25 @@
  */
 
 /* Dynamic color palette from Aether */
-@define-color background #0C0C0C;
-@define-color foreground #837b6f;
+@define-color background #1e1e1e;
+@define-color foreground #ffffff;
 
-@define-color black #0C0C0C;
-@define-color red #b27575;
-@define-color green #80b780;
-@define-color yellow #bdbd89;
-@define-color blue #9393c3;
-@define-color magenta #ae6fae;
-@define-color cyan #7cb6b6;
-@define-color white #ffcf85;
-@define-color bright_black #484136;
-@define-color bright_red #d5aeae;
-@define-color bright_green #b9dab9;
-@define-color bright_yellow #dfdfc3;
-@define-color bright_blue #cdcde5;
-@define-color bright_magenta #c482c4;
-@define-color bright_cyan #90cbcb;
-@define-color bright_white #837b6f;
+@define-color black #1e1e1e;
+@define-color red #cf6a4c;
+@define-color green #8f9d6a;
+@define-color yellow #f9ee98;
+@define-color blue #7587a6;
+@define-color magenta #9b859d;
+@define-color cyan #afc4db;
+@define-color white #a7a7a7;
+@define-color bright_black #5f5a60;
+@define-color bright_red #cf6a4c;
+@define-color bright_green #8f9d6a;
+@define-color bright_yellow #f9ee98;
+@define-color bright_blue #7587a6;
+@define-color bright_magenta #9b859d;
+@define-color bright_cyan #afc4db;
+@define-color bright_white #ffffff;
 
 /* Adwaita Color Overrides */
 @define-color accent_bg_color @blue;
@@ -40,11 +40,11 @@
 @define-color sidebar_backdrop_color @black;
 @define-color sidebar_shade_color @black;
 
-@define-color headerbar_bg_color alpha(@foreground, 0.1);
+@define-color headerbar_bg_color @background;
 @define-color headerbar_fg_color @foreground;
 @define-color headerbar_backdrop_color @black;
 @define-color headerbar_shade_color @black;
-@define-color card_bg_color alpha(@foreground, 0.1);
+@define-color card_bg_color @background;
 @define-color card_fg_color @foreground;
 
 @define-color popover_bg_color @black;
@@ -175,12 +175,6 @@ toast {
 toast button.circular.flat.image-button:hover {
     color: @background;
     background-color: @red;
-}
-
-/* SVG Icons - recolor to match foreground text */
-.svg-icon {
-    filter: invert(79%) sepia(18%) saturate(611%) hue-rotate(192deg)
-        brightness(103%) contrast(94%);
 }
 
 /* Sharp corners, Hyprland-inspired */
