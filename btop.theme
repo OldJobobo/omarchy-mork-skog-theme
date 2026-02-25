@@ -1,70 +1,70 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#0e0e16"
+theme[main_bg]="#1e1e1e"
 
 # Main text color
-theme[main_fg]="#cdd6f4"
+theme[main_fg]="#ffffff"
 
 # Title color for boxes
-theme[title]="#585b70"
+theme[title]="#9b859d"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#64687d"
+theme[hi_fg]="#afc4db"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#7b8098"
+theme[selected_bg]="#5f5a60"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#cdd6f4"
+theme[selected_fg]="#ffffff"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#7b8098"
+theme[inactive_fg]="#5f5a60"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#585b70"
+theme[proc_misc]="#9b859d"
 
 # Box outline and divider line color
-theme[cpu_box]="#353748"
-theme[mem_box]="#353748"
-theme[net_box]="#353748"
-theme[proc_box]="#353748"
-theme[div_line]="#7b8098"
+theme[cpu_box]="#8f9d6a"
+theme[mem_box]="#8f9d6a"
+theme[net_box]="#8f9d6a"
+theme[proc_box]="#8f9d6a"
+theme[div_line]="#5f5a60"
 
 # Gradient for all meters and graphs
-theme[temp_start]="#64687d"
-theme[temp_mid]="#4d4f63"
-theme[temp_end]="#353748"
+theme[temp_start]="#afc4db"
+theme[temp_mid]="#7587a6"
+theme[temp_end]="#8f9d6a"
 
 
-theme[cpu_start]="#64687d"
-theme[cpu_mid]="#4d4f63"
-theme[cpu_end]="#353748"
+theme[cpu_start]="#afc4db"
+theme[cpu_mid]="#7587a6"
+theme[cpu_end]="#8f9d6a"
 
 
-theme[free_start]="#4d4f63"
-theme[free_mid]="#414356"
-theme[free_end]="#414356"
+theme[free_start]="#7587a6"
+theme[free_mid]="#f9ee98"
+theme[free_end]="#f9ee98"
 
 
-theme[cached_start]="#414356"
-theme[cached_mid]="#414356"
-theme[cached_end]="#414356"
+theme[cached_start]="#f9ee98"
+theme[cached_mid]="#f9ee98"
+theme[cached_end]="#f9ee98"
 
 
-theme[available_start]="#64687d"
-theme[available_mid]="#64687d"
-theme[available_end]="#64687d"
+theme[available_start]="#afc4db"
+theme[available_mid]="#afc4db"
+theme[available_end]="#afc4db"
 
 
-theme[used_start]="#353748"
-theme[used_mid]="#353748"
-theme[used_end]="#353748"
+theme[used_start]="#8f9d6a"
+theme[used_mid]="#8f9d6a"
+theme[used_end]="#8f9d6a"
 
 
-theme[download_start]="#414356"
-theme[download_mid]="#64687d"
-theme[download_end]="#4d4f63"
+theme[download_start]="#f9ee98"
+theme[download_mid]="#afc4db"
+theme[download_end]="#7587a6"
 
 
-theme[upload_start]="#414356"
-theme[upload_mid]="#64687d"
-theme[upload_end]="#4d4f63"
+theme[upload_start]="#f9ee98"
+theme[upload_mid]="#afc4db"
+theme[upload_end]="#7587a6"

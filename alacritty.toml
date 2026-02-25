@@ -1,28 +1,48 @@
+# alacritty.toml
+# By OldJobobo (https://github.com/OldJobobo)
+# 
+
+
 [colors]
 [colors.primary]
-background = "#0C0C0C"
-foreground = "#837b6f"
+background = "#1e1e1e"
+foreground = "#ffffff"
 
 [colors.normal]
-black   = "#0C0C0C"
-red     = "#b27575"
-green   = "#80b780"
-yellow  = "#bdbd89"
-blue    = "#9393c3"
-magenta = "#ae6fae"
-cyan    = "#7cb6b6"
-white   = "#ffcf85"
+black   = "#1e1e1e"
+red     = "#cf6a4c"
+green   = "#8f9d6a"
+yellow  = "#f9ee98"
+blue    = "#7587a6"
+magenta = "#9b859d"
+cyan    = "#afc4db"
+white   = "#a7a7a7"
 
 [colors.bright]
-black   = "#484136"
-red     = "#d5aeae"
-green   = "#b9dab9"
-yellow  = "#dfdfc3"
-blue    = "#cdcde5"
-magenta = "#c482c4"
-cyan    = "#90cbcb"
-white   = "#837b6f"
+black   = "#5f5a60"
+red     = "#cf6a4c"
+green   = "#8f9d6a"
+yellow  = "#f9ee98"
+blue    = "#7587a6"
+magenta = "#9b859d"
+cyan    = "#afc4db"
+white   = "#ffffff"
 
 [colors.cursor]
-text   = "#0C0C0C"
-cursor = "#837b6f"
+text   = "#1e1e1e"
+cursor = "#ffffff"
+
+#   ______   __       ______                                       
+#  /_____/\ /_/\     /_____/\                                      
+#  \:::_ \ \\:\ \    \:::_ \ \                                     
+#   \:\ \ \ \\:\ \    \:\ \ \ \                                    
+#    \:\ \ \ \\:\ \____\:\ \ \ \                                   
+#     \:\_\ \ \\:\/___/\\:\/.:| |                                  
+#   ___\_____\/_\_____\/ \____/_/  ______    _______   ______      
+#  /________/\/_____/\ /_______/\ /_____/\ /_______/\ /_____/\     
+#  \__.::.__\/\:::_ \ \\::: _  \ \\:::_ \ \\::: _  \ \\:::_ \ \    
+#    /_\::\ \  \:\ \ \ \\::(_)  \/_\:\ \ \ \\::(_)  \/_\:\ \ \ \   
+#    \:.\::\ \  \:\ \ \ \\::  _  \ \\:\ \ \ \\::  _  \ \\:\ \ \ \  
+#     \: \  \ \  \:\_\ \ \\::(_)  \ \\:\_\ \ \\::(_)  \ \\:\_\ \ \ 
+#      \_____\/   \_____\/ \_______\/ \_____\/ \_______\/ \_____\/ 
+#
